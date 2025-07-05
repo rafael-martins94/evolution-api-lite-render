@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: evolution-api-lite
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: AUTHENTICATION_API_KEY
+        value: 3a0ed784-38bb-42c4-9c51-3fd96abacd5d
